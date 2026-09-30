@@ -1,0 +1,10 @@
+# Local vault state: never commit credentials or cryptographic material.
+vault.db
+vault_config.json
+*.db
+*.sqlite3
+.streamlit/secrets.toml
+.env
+__pycache__/
+.pytest_cache/
+
